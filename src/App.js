@@ -30,7 +30,7 @@ const App = () => {
         totalAmount: calc,
         category: chooseBricksValue,
       });
-      console.log(brick1Data);
+     alert(`username ${userName}, amount ${userAmount} data :- ${date} info: ${addInfo} category: ${chooseBricksValue} totalAmount : ${bricksAmt}`)
     } else if (chooseBricksValue === "2bricks") {
       brick2Data.push({
         title: userName,
